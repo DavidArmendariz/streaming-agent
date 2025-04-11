@@ -20,6 +20,12 @@ And fill the `.env` file with your OpenAI API key and other required environment
 python main.py
 ```
 
+or
+
+```bash
+pdm run python -m main
+```
+
 ## Install NGROK
 
 Follow instructions at https://ngrok.com/ and run the following command to expose your local server to the internet:
